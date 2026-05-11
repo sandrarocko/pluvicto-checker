@@ -20,7 +20,7 @@ try:
 
     count = len(data)
     print("Number of locations:", count)
-    print("YES" if count > 596 else "NO")
+    print("YES" if count > 605 else "NO")
 
 except Exception as e:
     print("Request failed:", str(e))
